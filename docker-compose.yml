@@ -1,0 +1,11 @@
+services:
+  postgres:
+      image: postgres:15
+      container_name: postgres
+      restart: always
+      environment:
+        POSTGRES_DB: playersdb
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: yourpassword
+      ports:
+        - "5432:5432"
