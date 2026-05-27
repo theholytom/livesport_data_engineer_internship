@@ -33,7 +33,7 @@ docker compose up -d
 **Why AI was used:** I used AI purely as a productivity booster to automate repetitive tasks and save time writing boilerplate code. Specifically, I used it to generate the initial CREATE TABLE schema based on a screenshot of the data columns with explicit data type definitions. Later, I passed an existing query for a single column and had the AI replicate and expand the logic across all remaining 16 columns, while specifing the logic behind it.
 
 
-**Prompt provided:** "Can you extend this command so it covers all the columns according to the types?" or "Generate a SQL command to find a row with these columns..."
+**Prompt provided:** "Can you extend this query so it covers all the columns according to the types?" or "Generate a SQL query to find a row with these columns..."
 
 
 **Validation/Adjustment:** Since the requirements were straightforward and highly specified from the start, the generated outputs were accurate. I carefully reviewed the resulting queries.
